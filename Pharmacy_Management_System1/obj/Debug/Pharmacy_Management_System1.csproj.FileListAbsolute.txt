@@ -1,0 +1,126 @@
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe.config
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.pdb
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Guna.UI2.dll
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Form1.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Properties.Resources.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.GenerateResource.cache
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CopyComplete
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.exe
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.pdb
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Administrator.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AdministratorUC.UC_Dashboard.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.UC_AddUser.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.UC_ViewUser.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AddUser.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewUser.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.prolife.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.SignUp.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AfterLoginAdminForm.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Pharmasist.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Add_Med.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewMed.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Medi_Sales.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.UPD_Med.resources
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csprojAssemblyReference.cache
+C:\Users\TOSHIBA\source\repos\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Sell_Med.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe.config
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.pdb
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csprojAssemblyReference.cache
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AddUser.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Add_Med.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Administrator.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AfterLoginAdminForm.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Form1.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Medi_Sales.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Pharmasist.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.prolife.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Properties.Resources.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Sell_Med.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.SignUp.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.UPD_Med.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewMed.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewUser.resources
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.GenerateResource.cache
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CopyComplete
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.exe
+C:\Users\TOSHIBA\OneDrive\Desktop\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.pdb
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe.config
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.exe
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Pharmacy_Management_System1.pdb
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\EntityFramework.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\EntityFramework.SqlServer.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\EntityFramework.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\EntityFramework.SqlServer.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.AssemblyReference.cache
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.SuggestedBindingRedirects.cache
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AddUser.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Add_Med.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Administrator.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.AfterLoginAdminForm.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Form1.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Medi_Sales.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Pharmasist.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.prolife.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Properties.Resources.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Sell_Med.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.SignUp.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.UPD_Med.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewMed.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.ViewUser.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.GenerateResource.cache
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CoreCompileInputs.cache
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.csproj.CopyComplete
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.exe
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.pdb
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Migrations.DbInIt.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.TestForm.resources
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.EntityFrameworkCore.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Options.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Buffers.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Collections.Immutable.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.ComponentModel.Annotations.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Memory.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Numerics.Vectors.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.EntityFrameworkCore.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Options.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Buffers.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Collections.Immutable.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Memory.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Numerics.Vectors.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\University\ooad\OOAD PROJECT 2K23\PMS1\Pharmacy_Management_System1\Pharmacy_Management_System1\obj\Debug\Pharmacy_Management_System1.Migrations.AddedEntities.resources

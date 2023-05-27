@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Pharmacy_Management_System1.Admin">
+    <Position X="7" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAABAAAAAAQAAgAAAKAAAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pharmacy_Management_System1.function">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharmacy_Management_System1.Function2">
+    <Position X="2.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Function2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharmacy_Management_System1.Program">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharmacy_Management_System1.userOperations">
+    <Position X="5.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAgAQAAAQAgAAAAAAAAAAA=</HashCode>
+      <FileName>userOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pharmacy_Management_System1.PharmacistOperations">
+    <Position X="3.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PharmacistOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pharmacy_Management_System1.SignIn">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SignIn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
