@@ -1,4 +1,5 @@
-﻿using Pharmacy_Management_System1.Model;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Pharmacy_Management_System1.Model;
 using Pharmacy_Management_System1.Model.User;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace Pharmacy_Management_System1
 {
     public partial class TestForm : Form
     {
+        private readonly ITransientService _transientService;
         private UserController _userController;
         public TestForm(UserController userController)
         {
@@ -21,10 +23,11 @@ namespace Pharmacy_Management_System1
             _userController = userController;
         }
 
-        //public TestForm()
-        //{
-        //    InitializeComponent();
-        //}
+        public TestForm(IServiceProvider serviceProvider)
+        {
+            InitializeComponent();
+            _transientService = serviceProvider.GetService<ITransientService>();
+        }
 
         private void TestForm_Load(object sender, EventArgs e)
         {
