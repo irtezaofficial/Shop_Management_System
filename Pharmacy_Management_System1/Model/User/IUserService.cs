@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacy_Management_System1.Model.User
 {
-    public interface IUserService : ITransientService
+    public interface IUserService
     {
         bool RegisterUser(RegisterUserRequest request);
     }

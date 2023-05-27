@@ -15,18 +15,11 @@ namespace Pharmacy_Management_System1
 {
     public partial class TestForm : Form
     {
-        private readonly ITransientService _transientService;
         private UserController _userController;
         public TestForm(UserController userController)
         {
             InitializeComponent();
             _userController = userController;
-        }
-
-        public TestForm(IServiceProvider serviceProvider)
-        {
-            InitializeComponent();
-            _transientService = serviceProvider.GetService<ITransientService>();
         }
 
         private void TestForm_Load(object sender, EventArgs e)

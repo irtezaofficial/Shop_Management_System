@@ -584,15 +584,12 @@
       <DependentUpon>202305271130124_AddedEntities.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Model\ITransientService.cs" />
     <Compile Include="Model\ShopDbContext.cs" />
     <Compile Include="Model\Order\Order.cs" />
     <Compile Include="Model\Order\OrderDetail\OrderDetail.cs" />
     <Compile Include="Model\Payment\PaymentDetails.cs" />
     <Compile Include="Model\Product\Product.cs" />
     <Compile Include="Model\Rider\Rider.cs" />
-    <Compile Include="Model\Startup.cs" />
-    <Compile Include="Model\TransientService.cs" />
     <Compile Include="Model\User\User.cs" />
     <Compile Include="Model\User\UserController.cs" />
     <Compile Include="Model\User\UserDtos.cs" />
