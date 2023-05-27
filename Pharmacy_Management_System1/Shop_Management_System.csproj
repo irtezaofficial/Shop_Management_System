@@ -176,8 +176,7 @@
       <DependentUpon>202305271130124_AddedEntities.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Model\Model.cs" />
-    <Compile Include="Model\ModelService.cs" />
+    <Compile Include="Model\ShopDbContext.cs" />
     <Compile Include="Model\Order\Order.cs" />
     <Compile Include="Model\Order\OrderDetail\OrderDetail.cs" />
     <Compile Include="Model\Payment\PaymentDetails.cs" />
