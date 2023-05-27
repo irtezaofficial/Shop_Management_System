@@ -17,13 +17,14 @@ namespace Pharmacy_Management_System1
         private UserController _userController;
         public TestForm(UserController userController)
         {
+            InitializeComponent();
             _userController = userController;
         }
 
-        public TestForm()
-        {
-            InitializeComponent();
-        }
+        //public TestForm()
+        //{
+        //    InitializeComponent();
+        //}
 
         private void TestForm_Load(object sender, EventArgs e)
         {
