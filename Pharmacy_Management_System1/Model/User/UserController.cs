@@ -9,10 +9,10 @@ namespace Pharmacy_Management_System1.Model.User
     public class UserController
     {
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
-        {
-            _userService = userService;
-        }
+        //public UserController(IUserService userService)
+        //{
+        //    _userService = userService;
+        //}
 
         public bool RegisterUser(RegisterUserRequest request)
         {
