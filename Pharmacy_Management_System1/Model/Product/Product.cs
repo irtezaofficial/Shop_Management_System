@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pharmacy_Management_System1.Model.Order.OrderDetail;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,7 @@ namespace Pharmacy_Management_System1.Model.Product
         public int Quantity { get; set; }
         public float Discount { get; set; }
         public DateTime? DeletedOn { get; set; }
+
+        public List<OrderDetailEntity> OrderDetails { get; set; }
     }
 }
