@@ -14,9 +14,14 @@ namespace Pharmacy_Management_System1.Model.User
             _userService = userService;
         }
 
-        public bool RegisterUser(RegisterUserRequest request)
+        public string RegisterUser(RegisterUserRequest request)
         {
             return _userService.RegisterUser(request);
+        }
+
+        public string LoginUser(LoginRequest request)
+        {
+            return _userService.LoginUser(request);
         }
     }
 }

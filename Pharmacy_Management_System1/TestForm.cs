@@ -39,7 +39,7 @@ namespace Pharmacy_Management_System1
                     ConfirmPassword = password.Text,
                 };
                 var result = this._userController.RegisterUser(request);
-                _ = result ? MessageBox.Show("User Registered.") : MessageBox.Show("User Already Exists.");
+                MessageBox.Show(result);
             }
         }
     }

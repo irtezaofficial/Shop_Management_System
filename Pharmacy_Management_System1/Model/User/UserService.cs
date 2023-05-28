@@ -15,13 +15,15 @@ namespace Pharmacy_Management_System1.Model.User
         {
             _context = shopDbContext;
         }
-        public bool RegisterUser(RegisterUserRequest request)
+        public string RegisterUser(RegisterUserRequest request)
         {
             var findUser = this._context.Users.FirstOrDefault(u => u.Email.Contains(request.Email));
             if(findUser != null)
-            {
-                return false;
-            }
+                return "User Already Exists.";
+
+            if (request.ConfirmPassword != request.Password)
+                return "Passwords does not match.";
+
             var newUser = new UserEntity()
             {
                 Email = request.Email,
@@ -31,7 +33,19 @@ namespace Pharmacy_Management_System1.Model.User
             };
             this._context.Users.Add(newUser);
             this._context.SaveChanges();
-            return true;
+            return "User Registered.";
+        }
+
+        public string LoginUser(LoginRequest request)
+        {
+            var findUser = this._context.Users.FirstOrDefault(u => u.Email.Contains(request.Email));
+            if (findUser == null)
+                return "Invalid Email.";
+
+            if (findUser.Password != request.Password)
+                return "Invalid Password";
+
+            return "Login Successfull.";
         }
     }
 }

@@ -8,6 +8,8 @@ namespace Pharmacy_Management_System1.Model.User
 {
     public interface IUserService
     {
-        bool RegisterUser(RegisterUserRequest request);
+        string RegisterUser(RegisterUserRequest request);
+
+        string LoginUser(LoginRequest request);
     }
 }
