@@ -23,5 +23,15 @@ namespace Pharmacy_Management_System1.Model.User
         {
             return _userService.LoginUser(request);
         }
+
+        public string ActivateAccount(int userId)
+        {
+            return _userService.ActivateOrDeactivateAccount(userId, true);
+        }
+
+        public string DeactivateAccount(int userId)
+        {
+            return _userService.ActivateOrDeactivateAccount(userId, false);
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using ShopMigrations;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,7 @@ namespace Pharmacy_Management_System1.Model.User
                 Password = request.Password,
                 Name = request.Name,
                 Username = request.Email,
+                IsActive = true,
             };
             this._context.Users.Add(newUser);
             this._context.SaveChanges();
@@ -46,6 +48,22 @@ namespace Pharmacy_Management_System1.Model.User
                 return "Invalid Password";
 
             return "Login Successfull.";
+        }
+
+        public string ActivateOrDeactivateAccount(int userId, bool active)
+        {
+            var findUser = this._context.Users.FirstOrDefault(u => u.Id == userId);
+            if (findUser == null)
+                return "An Error Occured.";
+            findUser.IsActive = active;
+            this._context.Users.AddOrUpdate(findUser);
+            this._context.SaveChanges();
+            if(active)
+                return "Account Activated.";
+            else
+            {
+                return "Account Deactivated.";
+            }
         }
     }
 }
