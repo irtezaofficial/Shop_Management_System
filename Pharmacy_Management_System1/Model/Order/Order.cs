@@ -23,6 +23,7 @@ namespace Pharmacy_Management_System1.Model.Order
         public OrderStatus Status { get; set; }
         public int RiderId { get; set; }
         public int UserId { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
         public RiderEntity Rider { get; set; }
         public UserEntity User { get; set; }

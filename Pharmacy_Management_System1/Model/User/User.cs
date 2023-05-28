@@ -14,6 +14,8 @@ namespace Pharmacy_Management_System1.Model
         public string Email { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
         public List<OrderEntity> Orders { get; set; }
     }

@@ -583,7 +583,15 @@
     <Compile Include="Migrations\202305271130124_AddedEntities.designer.cs">
       <DependentUpon>202305271130124_AddedEntities.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305281011494_AddedDeleteddOn.cs" />
+    <Compile Include="Migrations\202305281011494_AddedDeleteddOn.designer.cs">
+      <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Rider\IRiderService.cs" />
+    <Compile Include="Model\Rider\RiderController.cs" />
+    <Compile Include="Model\Rider\RiderDtos.cs" />
+    <Compile Include="Model\Rider\RiderService.cs" />
     <Compile Include="Model\ShopDbContext.cs" />
     <Compile Include="Model\Order\Order.cs" />
     <Compile Include="Model\Order\OrderDetail\OrderDetail.cs" />
@@ -706,6 +714,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305271130124_AddedEntities.resx">
       <DependentUpon>202305271130124_AddedEntities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305281011494_AddedDeleteddOn.resx">
+      <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmasist.resx">
       <DependentUpon>Pharmasist.cs</DependentUpon>

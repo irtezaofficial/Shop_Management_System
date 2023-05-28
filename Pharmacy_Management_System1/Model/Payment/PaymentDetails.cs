@@ -12,6 +12,7 @@ namespace Pharmacy_Management_System1.Model.Payment
         public int Id { get; set; }
         public string Amount { get; set; }
         public int OrderId { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
         public OrderEntity Order { get; set; }
     }

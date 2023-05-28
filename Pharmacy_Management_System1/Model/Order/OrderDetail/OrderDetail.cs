@@ -15,6 +15,7 @@ namespace Pharmacy_Management_System1.Model.Order.OrderDetail
         public int Discount { get; set; }
         public int ProductId { get; set; }
         public int OrderId { get; set; }
+        public DateTime? DeletedOn { get; set; }
 
         public ProductEntity Product { get; set; }
         public OrderEntity Order { get; set; }        

@@ -13,5 +13,6 @@ namespace Pharmacy_Management_System1.Model.Product
         public int Price { get; set; }
         public int Quantity { get; set; }
         public float Discount { get; set; }
+        public DateTime? DeletedOn { get; set; }
     }
 }
