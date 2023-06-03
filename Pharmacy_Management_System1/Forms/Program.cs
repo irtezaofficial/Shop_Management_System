@@ -37,8 +37,13 @@ namespace Pharmacy_Management_System1
                 });
                 db.SaveChanges();
             }
+
+            // initializing service with interface
             IUserService service = new UserService(db);
+
+            // passing interface service to controller param
             UserController controller = new UserController(service);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new TestForm(controller));

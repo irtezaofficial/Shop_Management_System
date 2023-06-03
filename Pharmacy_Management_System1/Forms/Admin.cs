@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Pharmacy_Management_System1
 {
-    class Admin: userOperations,SignIn
+    class Admin: userOperations
     {
         public void Adduser(string user_role, string name, string dob, string contact, string email, string user, string password)
         {

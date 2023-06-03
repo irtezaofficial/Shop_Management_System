@@ -59,15 +59,5 @@ namespace Pharmacy_Management_System1.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Rekhta_e_Ahle_bait_01 {
-            get {
-                object obj = ResourceManager.GetObject("Rekhta e Ahle bait-01", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
