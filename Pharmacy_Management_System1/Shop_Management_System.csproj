@@ -540,39 +540,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addAmedDataSet.Designer.cs">
+    <Compile Include="Forms\addAmedDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>addAmedDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="addAmedDataSet1.Designer.cs">
+    <Compile Include="Forms\addAmedDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>addAmedDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="addmedDataSet.Designer.cs">
+    <Compile Include="Forms\addmedDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>addmedDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="AddUser.cs">
+    <Compile Include="Forms\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddUser.Designer.cs">
+    <Compile Include="Forms\AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Add_Med.cs">
+    <Compile Include="Forms\Add_Med.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add_Med.Designer.cs">
+    <Compile Include="Forms\Add_Med.Designer.cs">
       <DependentUpon>Add_Med.cs</DependentUpon>
     </Compile>
-    <Compile Include="DGVPrinter.cs" />
-    <Compile Include="Function2.cs" />
-    <Compile Include="Medi_Sales.cs">
+    <Compile Include="Forms\DGVPrinter.cs" />
+    <Compile Include="Forms\Function2.cs" />
+    <Compile Include="Forms\Medi_Sales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medi_Sales.Designer.cs">
+    <Compile Include="Forms\Medi_Sales.Designer.cs">
       <DependentUpon>Medi_Sales.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202305270921386_DbInIt.cs" />
@@ -611,110 +611,110 @@
     <Compile Include="Model\User\UserDtos.cs" />
     <Compile Include="Model\User\IUserService.cs" />
     <Compile Include="Model\User\UserService.cs" />
-    <Compile Include="PharmacistOperations.cs" />
-    <Compile Include="PharmacyManagmentDataSet1.Designer.cs">
+    <Compile Include="Forms\PharmacistOperations.cs" />
+    <Compile Include="Forms\PharmacyManagmentDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PharmacyManagmentDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="PharmacyManagmentDataSet2.Designer.cs">
+    <Compile Include="Forms\PharmacyManagmentDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PharmacyManagmentDataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Pharmasist.cs">
+    <Compile Include="Forms\Pharmasist.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pharmasist.Designer.cs">
+    <Compile Include="Forms\Pharmasist.Designer.cs">
       <DependentUpon>Pharmasist.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sell_Med.cs">
+    <Compile Include="Forms\Sell_Med.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sell_Med.Designer.cs">
+    <Compile Include="Forms\Sell_Med.Designer.cs">
       <DependentUpon>Sell_Med.cs</DependentUpon>
     </Compile>
-    <Compile Include="TestForm.cs">
+    <Compile Include="Forms\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TestForm.Designer.cs">
+    <Compile Include="Forms\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UPD_Med.cs">
+    <Compile Include="Forms\UPD_Med.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UPD_Med.Designer.cs">
+    <Compile Include="Forms\UPD_Med.Designer.cs">
       <DependentUpon>UPD_Med.cs</DependentUpon>
     </Compile>
-    <Compile Include="userOperations.cs" />
-    <Compile Include="Admin.cs" />
-    <Compile Include="Administrator.cs">
+    <Compile Include="Forms\userOperations.cs" />
+    <Compile Include="Forms\Admin.cs" />
+    <Compile Include="Forms\Administrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrator.Designer.cs">
+    <Compile Include="Forms\Administrator.Designer.cs">
       <DependentUpon>Administrator.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfterLoginAdminForm.cs">
+    <Compile Include="Forms\AfterLoginAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfterLoginAdminForm.Designer.cs">
+    <Compile Include="Forms\AfterLoginAdminForm.Designer.cs">
       <DependentUpon>AfterLoginAdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="function.cs" />
-    <Compile Include="PharmacyManagmentDataSet.Designer.cs">
+    <Compile Include="Forms\function.cs" />
+    <Compile Include="Forms\PharmacyManagmentDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PharmacyManagmentDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="prolife.cs">
+    <Compile Include="Forms\Program.cs" />
+    <Compile Include="Forms\prolife.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="prolife.Designer.cs">
+    <Compile Include="Forms\prolife.Designer.cs">
       <DependentUpon>prolife.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignIn.cs" />
-    <Compile Include="SignUp.cs">
+    <Compile Include="Forms\SignIn.cs" />
+    <Compile Include="Forms\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignUp.Designer.cs">
+    <Compile Include="Forms\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="ViewMed.cs">
+    <Compile Include="Forms\ViewMed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewMed.Designer.cs">
+    <Compile Include="Forms\ViewMed.Designer.cs">
       <DependentUpon>ViewMed.cs</DependentUpon>
     </Compile>
-    <Compile Include="ViewUser.cs">
+    <Compile Include="Forms\ViewUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewUser.Designer.cs">
+    <Compile Include="Forms\ViewUser.Designer.cs">
       <DependentUpon>ViewUser.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddUser.resx">
+    <EmbeddedResource Include="Forms\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Add_Med.resx">
+    <EmbeddedResource Include="Forms\Add_Med.resx">
       <DependentUpon>Add_Med.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrator.resx">
+    <EmbeddedResource Include="Forms\Administrator.resx">
       <DependentUpon>Administrator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AfterLoginAdminForm.resx">
+    <EmbeddedResource Include="Forms\AfterLoginAdminForm.resx">
       <DependentUpon>AfterLoginAdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medi_Sales.resx">
+    <EmbeddedResource Include="Forms\Medi_Sales.resx">
       <DependentUpon>Medi_Sales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305270921386_DbInIt.resx">
@@ -726,10 +726,10 @@
     <EmbeddedResource Include="Migrations\202305281011494_AddedDeleteddOn.resx">
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pharmasist.resx">
+    <EmbeddedResource Include="Forms\Pharmasist.resx">
       <DependentUpon>Pharmasist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="prolife.resx">
+    <EmbeddedResource Include="Forms\prolife.resx">
       <DependentUpon>prolife.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -742,90 +742,90 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Sell_Med.resx">
+    <EmbeddedResource Include="Forms\Sell_Med.resx">
       <DependentUpon>Sell_Med.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignUp.resx">
+    <EmbeddedResource Include="Forms\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TestForm.resx">
+    <EmbeddedResource Include="Forms\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UPD_Med.resx">
+    <EmbeddedResource Include="Forms\UPD_Med.resx">
       <DependentUpon>UPD_Med.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewMed.resx">
+    <EmbeddedResource Include="Forms\ViewMed.resx">
       <DependentUpon>ViewMed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewUser.resx">
+    <EmbeddedResource Include="Forms\ViewUser.resx">
       <DependentUpon>ViewUser.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="addAmedDataSet.xsc">
+    <None Include="Forms\addAmedDataSet.xsc">
       <DependentUpon>addAmedDataSet.xsd</DependentUpon>
     </None>
-    <None Include="addAmedDataSet.xsd">
+    <None Include="Forms\addAmedDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>addAmedDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="addAmedDataSet.xss">
+    <None Include="Forms\addAmedDataSet.xss">
       <DependentUpon>addAmedDataSet.xsd</DependentUpon>
     </None>
-    <None Include="addAmedDataSet1.xsc">
+    <None Include="Forms\addAmedDataSet1.xsc">
       <DependentUpon>addAmedDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="addAmedDataSet1.xsd">
+    <None Include="Forms\addAmedDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>addAmedDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="addAmedDataSet1.xss">
+    <None Include="Forms\addAmedDataSet1.xss">
       <DependentUpon>addAmedDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="addmedDataSet.xsc">
+    <None Include="Forms\addmedDataSet.xsc">
       <DependentUpon>addmedDataSet.xsd</DependentUpon>
     </None>
-    <None Include="addmedDataSet.xsd">
+    <None Include="Forms\addmedDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>addmedDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="addmedDataSet.xss">
+    <None Include="Forms\addmedDataSet.xss">
       <DependentUpon>addmedDataSet.xsd</DependentUpon>
     </None>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="packages.config" />
-    <None Include="PharmacyManagmentDataSet.xsc">
+    <None Include="Forms\ClassDiagram1.cd" />
+    <None Include="Forms\packages.config" />
+    <None Include="Forms\PharmacyManagmentDataSet.xsc">
       <DependentUpon>PharmacyManagmentDataSet.xsd</DependentUpon>
     </None>
-    <None Include="PharmacyManagmentDataSet.xsd">
+    <None Include="Forms\PharmacyManagmentDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>PharmacyManagmentDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="PharmacyManagmentDataSet.xss">
+    <None Include="Forms\PharmacyManagmentDataSet.xss">
       <DependentUpon>PharmacyManagmentDataSet.xsd</DependentUpon>
     </None>
-    <None Include="PharmacyManagmentDataSet1.xsc">
+    <None Include="Forms\PharmacyManagmentDataSet1.xsc">
       <DependentUpon>PharmacyManagmentDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="PharmacyManagmentDataSet1.xsd">
+    <None Include="Forms\PharmacyManagmentDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>PharmacyManagmentDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="PharmacyManagmentDataSet1.xss">
+    <None Include="Forms\PharmacyManagmentDataSet1.xss">
       <DependentUpon>PharmacyManagmentDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="PharmacyManagmentDataSet2.xsc">
+    <None Include="Forms\PharmacyManagmentDataSet2.xsc">
       <DependentUpon>PharmacyManagmentDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="PharmacyManagmentDataSet2.xsd">
+    <None Include="Forms\PharmacyManagmentDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>PharmacyManagmentDataSet2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="PharmacyManagmentDataSet2.xss">
+    <None Include="Forms\PharmacyManagmentDataSet2.xss">
       <DependentUpon>PharmacyManagmentDataSet2.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -839,10 +839,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Rekhta e Ahle bait-01.png" />
+    <None Include="Forms\App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
@@ -850,6 +847,9 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
