@@ -588,6 +588,10 @@
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Product\IProductService.cs" />
+    <Compile Include="Model\Product\ProductController.cs" />
+    <Compile Include="Model\Product\ProductDtos.cs" />
+    <Compile Include="Model\Product\ProductService.cs" />
     <Compile Include="Model\Rider\IRiderService.cs" />
     <Compile Include="Model\Rider\RiderController.cs" />
     <Compile Include="Model\Rider\RiderDtos.cs" />
