@@ -43,7 +43,7 @@ namespace Pharmacy_Management_System1.Model.Product
 
         public string UpdateProduct(UpdateProductRequest request)
         {
-            var findProduct = this._context.Product.FirstOrDefault(r => r.Name.Contains(request.Name) && r.DeletedOn == null);
+            var findProduct = this._context.Product.FirstOrDefault(p => p.Name.Contains(request.Name) && p.DeletedOn == null);
             if (findProduct == null)
                 return "Product Not Found";
             findProduct.Name = request.Name;

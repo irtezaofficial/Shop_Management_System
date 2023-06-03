@@ -588,6 +588,10 @@
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Payment\IPaymentService.cs" />
+    <Compile Include="Model\Payment\PaymentController.cs" />
+    <Compile Include="Model\Payment\PaymentDtos.cs" />
+    <Compile Include="Model\Payment\PaymentService.cs" />
     <Compile Include="Model\Product\IProductService.cs" />
     <Compile Include="Model\Product\ProductController.cs" />
     <Compile Include="Model\Product\ProductDtos.cs" />
