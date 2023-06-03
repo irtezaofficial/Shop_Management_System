@@ -555,6 +555,14 @@
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Order\IOrderService.cs" />
+    <Compile Include="Model\Order\OrderController.cs" />
+    <Compile Include="Model\Order\OrderDetail\IOrderDetailService.cs" />
+    <Compile Include="Model\Order\OrderDetail\OrderDetailController.cs" />
+    <Compile Include="Model\Order\OrderDetail\OrderDetailDtos.cs" />
+    <Compile Include="Model\Order\OrderDetail\OrderDetailService.cs" />
+    <Compile Include="Model\Order\OrderDtos.cs" />
+    <Compile Include="Model\Order\OrderService.cs" />
     <Compile Include="Model\Payment\IPaymentService.cs" />
     <Compile Include="Model\Payment\PaymentController.cs" />
     <Compile Include="Model\Payment\PaymentDtos.cs" />
