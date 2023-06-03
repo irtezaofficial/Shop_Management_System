@@ -1,5 +1,6 @@
 ﻿namespace Pharmacy_Management_System1.Migrations
 {
+    using Pharmacy_Management_System1.Model;
     using ShopMigrations;
     using System;
     using System.Data.Entity.Migrations;
@@ -14,10 +15,22 @@
 
         protected override void Seed(ShopDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            
+            // seeding admin user
+            // testing remaining
+            var db = new ShopDbContext();
+            if (!db.Users.Any())
+            {
+                db.Users.Add(new UserEntity
+                {
+                    Id = 1,
+                    Email = "admin@shop.com",
+                    Username = "shopadmin",
+                    Name = "Admin",
+                    Password = "123"
+                });
+                db.SaveChanges();
+            }
         }
     }
 }
