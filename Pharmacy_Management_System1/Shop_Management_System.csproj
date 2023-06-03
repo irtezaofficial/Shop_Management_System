@@ -588,7 +588,7 @@
     <Compile Include="Forms\userOperations.cs" />
     <Compile Include="Forms\Admin.cs" />
     <Compile Include="Forms\function.cs" />
-    <Compile Include="Forms\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202305270921386_DbInIt.resx">
       <DependentUpon>202305270921386_DbInIt.cs</DependentUpon>
