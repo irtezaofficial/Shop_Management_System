@@ -2,7 +2,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualBasic.Logging;
-using Pharmacy_Management_System1.Forms;
 using Pharmacy_Management_System1.Model;
 using Pharmacy_Management_System1.Model.User;
 using ShopMigrations;
@@ -12,7 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web.UI.Design;
 using System.Windows.Forms;
-
+using static Guna.UI2.Native.WinApi;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Pharmacy_Management_System1
@@ -47,7 +46,7 @@ namespace Pharmacy_Management_System1
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login(controller));
+            Application.Run(new TestForm(controller));
         }
     }
 }
