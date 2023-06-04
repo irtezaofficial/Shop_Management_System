@@ -17,9 +17,9 @@ namespace Pharmacy_Management_System1.Model.Product
             return this._productService.AddProduct(request);
         }
 
-        public ProductEntity GetProductById(int productId)
+        public ProductEntity GetProductByName(string productName)
         {
-            return this._productService.GetProductById(productId);
+            return this._productService.GetProductByName(productName);
         }
 
         public string UpdateProduct(UpdateProductRequest request)

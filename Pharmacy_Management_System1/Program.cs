@@ -4,6 +4,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.VisualBasic.Logging;
 using Pharmacy_Management_System1.Forms;
 using Pharmacy_Management_System1.Model;
+using Pharmacy_Management_System1.Model.Order;
+using Pharmacy_Management_System1.Model.Product;
 using Pharmacy_Management_System1.Model.User;
 using ShopMigrations;
 using System;
@@ -41,13 +43,19 @@ namespace Pharmacy_Management_System1
 
             // initializing service with interface
             IUserService service = new UserService(db);
+            IProductService service1 = new ProductService(db); 
+            IOrderService service2 = new OrderService(db);
+
 
             // passing interface service to controller param
-            UserController controller = new UserController(service);
+            UserController userController = new UserController(service);
+            ProductController productController = new ProductController(service1);
+            OrderController orderController = new OrderController(service2);
 
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login(controller));
+            Application.Run(new Login(userController, productController, orderController));
         }
     }
 }

@@ -38,16 +38,36 @@ namespace Pharmacy_Management_System1.Model.User
             return "User Registered.";
         }
 
-        public string LoginUser(LoginRequest request)
+        public LoginResponse LoginUser(LoginRequest request)
         {
             var findUser = this._context.Users.FirstOrDefault(u => u.Email.Contains(request.Email));
             if (findUser == null)
-                return "Invalid Email.";
+            {
+                return new LoginResponse
+                {
+                    IsAdmin = false,
+                    UserId = 0,
+                    Message = "Invalid Email."
+                };
+
+            }
 
             if (findUser.Password != request.Password)
-                return "Invalid Password";
+            {
+                return new LoginResponse
+                {
+                    IsAdmin = false,
+                    UserId = 0,
+                    Message = "Invalid Password."
+                };
+            }
 
-            return "Login Successfull.";
+            return new LoginResponse
+            {
+                IsAdmin = findUser.Email == "admin@shop.com",
+                UserId = findUser.Id,
+                Message = "Login Successfull."
+            };
         }
 
         public string ActivateOrDeactivateAccount(int userId, bool active)

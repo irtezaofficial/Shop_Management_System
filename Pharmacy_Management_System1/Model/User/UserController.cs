@@ -19,7 +19,7 @@ namespace Pharmacy_Management_System1.Model.User
             return _userService.RegisterUser(request);
         }
 
-        public string LoginUser(LoginRequest request)
+        public LoginResponse LoginUser(LoginRequest request)
         {
             return _userService.LoginUser(request);
         }

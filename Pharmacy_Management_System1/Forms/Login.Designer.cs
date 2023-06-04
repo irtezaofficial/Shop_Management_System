@@ -93,6 +93,7 @@
             this.gunaTextBox1.TabIndex = 43;
             this.gunaTextBox1.Text = "Email";
             this.gunaTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaTextBox1.TextChanged += new System.EventHandler(this.gunaTextBox1_TextChanged);
             // 
             // gunaAdvenceButton2
             // 

@@ -10,7 +10,7 @@ namespace Pharmacy_Management_System1.Model.User
     {
         string RegisterUser(RegisterUserRequest request);
 
-        string LoginUser(LoginRequest request);
+        LoginResponse LoginUser(LoginRequest request);
 
         string ActivateOrDeactivateAccount(int userId, bool active);
     }

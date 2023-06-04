@@ -10,7 +10,7 @@ namespace Pharmacy_Management_System1.Model.Product
     public interface IProductService
     {
         string AddProduct(AddProductRequest request);
-        ProductEntity GetProductById(int productId);
+        ProductEntity GetProductByName(string productName);
         string UpdateProduct(UpdateProductRequest request);
         string DeleteProduct(int productId);
         List<ProductEntity> GetAllProducts();

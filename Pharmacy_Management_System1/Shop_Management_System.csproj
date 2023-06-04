@@ -543,7 +543,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DGVPrinter.cs" />
+    <Compile Include="Forms\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductListing.Designer.cs">
+      <DependentUpon>ProductListing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -557,6 +581,12 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Function2.cs" />
+    <Compile Include="Forms\updateProductListing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\updateProductListing.Designer.cs">
+      <DependentUpon>updateProductListing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202305270921386_DbInIt.cs" />
     <Compile Include="Migrations\202305270921386_DbInIt.designer.cs">
       <DependentUpon>202305270921386_DbInIt.cs</DependentUpon>
@@ -568,6 +598,14 @@
     <Compile Include="Migrations\202305281011494_AddedDeleteddOn.cs" />
     <Compile Include="Migrations\202305281011494_AddedDeleteddOn.designer.cs">
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306041454414_NullableRider.cs" />
+    <Compile Include="Migrations\202306041454414_NullableRider.designer.cs">
+      <DependentUpon>202306041454414_NullableRider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306041537577_TotalProductAmount.cs" />
+    <Compile Include="Migrations\202306041537577_TotalProductAmount.designer.cs">
+      <DependentUpon>202306041537577_TotalProductAmount.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Order\IOrderService.cs" />
@@ -607,11 +645,28 @@
     <Compile Include="Forms\function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductListing.resx">
+      <DependentUpon>ProductListing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\register.resx">
       <DependentUpon>register.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\updateProductListing.resx">
+      <DependentUpon>updateProductListing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305270921386_DbInIt.resx">
       <DependentUpon>202305270921386_DbInIt.cs</DependentUpon>
@@ -621,6 +676,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305281011494_AddedDeleteddOn.resx">
       <DependentUpon>202305281011494_AddedDeleteddOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306041454414_NullableRider.resx">
+      <DependentUpon>202306041454414_NullableRider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306041537577_TotalProductAmount.resx">
+      <DependentUpon>202306041537577_TotalProductAmount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -632,6 +693,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

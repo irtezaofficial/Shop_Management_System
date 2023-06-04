@@ -33,9 +33,9 @@ namespace Pharmacy_Management_System1.Model.Product
         }
 
 
-        public ProductEntity GetProductById(int productId)
+        public ProductEntity GetProductByName(string productName)
         {
-            var findProduct = this._context.Product.FirstOrDefault(p => p.Id == productId);
+            var findProduct = this._context.Product.FirstOrDefault(p => p.Name == productName);
             if (findProduct == null)
                 return new ProductEntity();
             return findProduct;
@@ -43,7 +43,7 @@ namespace Pharmacy_Management_System1.Model.Product
 
         public string UpdateProduct(UpdateProductRequest request)
         {
-            var findProduct = this._context.Product.FirstOrDefault(p => p.Name.Contains(request.Name) && p.DeletedOn == null);
+            var findProduct = this._context.Product.FirstOrDefault(p => p.Id == request.Id && p.DeletedOn == null);
             if (findProduct == null)
                 return "Product Not Found";
             findProduct.Name = request.Name;

@@ -1,4 +1,6 @@
-﻿using Pharmacy_Management_System1.Model.User;
+﻿using Pharmacy_Management_System1.Model.Order;
+using Pharmacy_Management_System1.Model.Product;
+using Pharmacy_Management_System1.Model.User;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,10 +17,14 @@ namespace Pharmacy_Management_System1.Forms
     public partial class Login : Form
     {
         private UserController _userController;
-        public Login(UserController userController)
+        private ProductController _productController;
+        private OrderController _OrderController;
+        public Login(UserController userController, ProductController productController, OrderController OrderController)
         {
             InitializeComponent();
             _userController = userController;
+            _productController = productController;
+            _OrderController = OrderController;
         }
 
         private void gunaAdvenceButton1_Click(object sender, EventArgs e)
@@ -53,11 +59,23 @@ namespace Pharmacy_Management_System1.Forms
 
                 };
                 var result = this._userController.LoginUser(request);
-                MessageBox.Show(result);
+                MessageBox.Show(result.Message);
+                this.Hide();
+                if (result.IsAdmin)
+                {
+                    Menu M1 = new Menu(_userController, _productController);
+                    M1.Show();
+                }
+                else
+                {
+                    ProductListing pl1 = new ProductListing(_productController,_userController ,_OrderController,result.UserId);
+                    pl1.Show();
+                }
             }
             else
             {
                 MessageBox.Show("Please fill the form");
+                
 
             }
         }
@@ -65,13 +83,18 @@ namespace Pharmacy_Management_System1.Forms
         private void gunaAdvenceButton3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form r1 = new register(_userController);
+            Form r1 = new register(_userController,_productController, _OrderController);
             r1.Show();
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void gunaTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

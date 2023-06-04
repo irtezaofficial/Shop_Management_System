@@ -1,4 +1,6 @@
-﻿using Pharmacy_Management_System1.Model.User;
+﻿using Pharmacy_Management_System1.Model.Order;
+using Pharmacy_Management_System1.Model.Product;
+using Pharmacy_Management_System1.Model.User;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,10 +16,14 @@ namespace Pharmacy_Management_System1.Forms
     public partial class register : Form
     {
         private UserController _userController;
-        public register(UserController userController)
+        private ProductController _productcontroller;
+        private OrderController _OrderController;
+        public register(UserController userController, ProductController productController, OrderController OrderController)
         {
             InitializeComponent();
             _userController = userController;
+            _productcontroller = productController;
+            _OrderController = OrderController;
         }
 
         private void gunaAdvenceButton1_Click(object sender, EventArgs e)
@@ -46,10 +52,53 @@ namespace Pharmacy_Management_System1.Forms
                 };
                 var result = this._userController.RegisterUser(request);
                 MessageBox.Show(result);
+                this.Hide();
+                Form L1 = new Login(_userController,_productcontroller, _OrderController);
+                L1.Show();
             }
             else {
                 MessageBox.Show("Please fill the form");
             }
+        }
+
+        private void cpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaTextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nameLabel_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

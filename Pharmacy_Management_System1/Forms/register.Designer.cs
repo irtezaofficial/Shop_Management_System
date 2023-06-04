@@ -99,6 +99,7 @@
             this.gunaTextBox5.TabIndex = 55;
             this.gunaTextBox5.Text = "Email";
             this.gunaTextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaTextBox5.TextChanged += new System.EventHandler(this.gunaTextBox5_TextChanged);
             // 
             // email
             // 
@@ -117,6 +118,7 @@
             this.email.SelectedText = "";
             this.email.Size = new System.Drawing.Size(297, 36);
             this.email.TabIndex = 54;
+            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // name
             // 
@@ -135,6 +137,7 @@
             this.name.SelectedText = "";
             this.name.Size = new System.Drawing.Size(297, 36);
             this.name.TabIndex = 53;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // gunaAdvenceButton2
             // 
@@ -191,6 +194,7 @@
             this.nameLabel.TabIndex = 51;
             this.nameLabel.Text = "Name";
             this.nameLabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nameLabel.TextChanged += new System.EventHandler(this.nameLabel_TextChanged);
             // 
             // gunaTextBox2
             // 
@@ -213,6 +217,7 @@
             this.gunaTextBox2.TabIndex = 60;
             this.gunaTextBox2.Text = "Confirm Password";
             this.gunaTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaTextBox2.TextChanged += new System.EventHandler(this.gunaTextBox2_TextChanged);
             // 
             // cpassword
             // 
@@ -231,6 +236,7 @@
             this.cpassword.SelectedText = "";
             this.cpassword.Size = new System.Drawing.Size(297, 36);
             this.cpassword.TabIndex = 59;
+            this.cpassword.TextChanged += new System.EventHandler(this.cpassword_TextChanged);
             // 
             // password
             // 
@@ -249,6 +255,7 @@
             this.password.SelectedText = "";
             this.password.Size = new System.Drawing.Size(297, 36);
             this.password.TabIndex = 58;
+            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // gunaTextBox6
             // 
@@ -271,6 +278,7 @@
             this.gunaTextBox6.TabIndex = 57;
             this.gunaTextBox6.Text = "Password";
             this.gunaTextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaTextBox6.TextChanged += new System.EventHandler(this.gunaTextBox6_TextChanged);
             // 
             // label1
             // 
@@ -327,7 +335,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1380, 768);
+            this.ClientSize = new System.Drawing.Size(1380, 788);
             this.Controls.Add(this.gunaAdvenceButton1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);

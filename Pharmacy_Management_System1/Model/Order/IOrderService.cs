@@ -8,6 +8,8 @@ namespace Pharmacy_Management_System1.Model.Order
 {
     public interface IOrderService
     {
-
+        string AddToCart(AddToCartRequest request);
+        string Checkout(int userId);
+        OrderEntity GetCurrentUserCart(int userId);
     }
 }
