@@ -540,8 +540,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\DGVPrinter.cs" />
-    <Compile Include="Forms\Function2.cs" />
     <Compile Include="Migrations\202305270921386_DbInIt.cs" />
     <Compile Include="Migrations\202305270921386_DbInIt.designer.cs">
       <DependentUpon>202305270921386_DbInIt.cs</DependentUpon>
@@ -586,16 +584,6 @@
     <Compile Include="Model\User\UserDtos.cs" />
     <Compile Include="Model\User\IUserService.cs" />
     <Compile Include="Model\User\UserService.cs" />
-    <Compile Include="Forms\PharmacistOperations.cs" />
-    <Compile Include="Forms\TestForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\TestForm.Designer.cs">
-      <DependentUpon>TestForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\userOperations.cs" />
-    <Compile Include="Forms\Admin.cs" />
-    <Compile Include="Forms\function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202305270921386_DbInIt.resx">
@@ -617,9 +605,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Forms\TestForm.resx">
-      <DependentUpon>TestForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
